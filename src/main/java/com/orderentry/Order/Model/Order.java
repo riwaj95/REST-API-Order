@@ -12,7 +12,7 @@ public class Order {
     @Column(name = "Name")
     private String name;
 
-    @Column(name = "Item")
+    @Column(name = "ItemName")
     private String item;
 
     @Column(name = "Location")

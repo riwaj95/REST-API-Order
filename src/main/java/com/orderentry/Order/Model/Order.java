@@ -9,13 +9,13 @@ public class Order {
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "name")
+    @Column(name = "Name")
     private String name;
 
-    @Column(name = "item")
+    @Column(name = "Item")
     private String item;
 
-    @Column(name = "location")
+    @Column(name = "Location")
     private String location;
 
     public long getId() {

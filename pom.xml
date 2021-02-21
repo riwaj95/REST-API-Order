@@ -49,6 +49,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>Order_Jenkins</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

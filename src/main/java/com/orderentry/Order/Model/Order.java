@@ -18,6 +18,17 @@ public class Order {
     @Column(name = "Location")
     private String location;
 
+    @Column(name = "quantity")
+    private String quantity;
+
+    public String getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
+    }
+
     public long getId() {
         return id;
     }

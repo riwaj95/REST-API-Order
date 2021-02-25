@@ -21,6 +21,7 @@
             <th>Name</th>
             <th>Item</th>
             <th>Location</th>
+            <th>Quantity</th>
             </td>
         </tr>
         </thead>
@@ -29,6 +30,7 @@
             <td th:text="${order.name}"></td>
             <td th:text="${order.item}"></td>
             <td th:text="${order.location}"></td>
+            <td th:text="${order.quantity}"></td>
             <td><a th:href="@{/deleteOrder/{id}(id=${order.id})}" class="btn btn-danger">Delete</a>
         </tr>
         </tbody>

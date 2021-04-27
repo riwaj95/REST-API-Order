@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    -target/Order_Jenkins.jar
+    - /home/rk95/Downloads/Order/target/Order_Jenkins.jar

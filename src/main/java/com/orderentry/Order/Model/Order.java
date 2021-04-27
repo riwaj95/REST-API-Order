@@ -3,7 +3,7 @@ package com.orderentry.Order.Model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "orderofsteel")
+@Table(name = "orderofitem")
 public class Order {
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)

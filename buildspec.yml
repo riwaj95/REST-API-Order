@@ -9,6 +9,3 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-artifacts:
-  files:
-    - /home/rk95/Downloads/Order/target/Order_Jenkins.jar
